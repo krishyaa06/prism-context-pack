@@ -1,0 +1,37 @@
+{
+  "name": "prism-context-pack",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI that packs a repository into a single Markdown or XML prompt for ChatGPT, Claude or Gemini, respecting .gitignore.",
+  "bin": {
+    "ctxpack": "bin/ctxpack.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "llm",
+    "prompt",
+    "context",
+    "chatgpt",
+    "claude",
+    "repomix",
+    "vibe-coding",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-context-pack.git"
+  },
+  "homepage": "https://github.com/krishyaa06/prism-context-pack#readme",
+  "engines": {
+    "node": ">=18.17"
+  }
+}
